@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop Down</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    button{
+        position: relative;
+        left: 100px;
+        top: 20px;
+        width: 100px;
+        background-color: transparent;
+        border: none;
+        color: black;
+        cursor: pointer;
+        outline: none;
+        background-color: darkred;
+        color: white;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+    .drop{
+        width: 100px;
+        height: 120px;
+        background-color: darkorchid;
+        position: relative;
+        left: 100px;
+        top: 20px;
+        display: none;
+    }
+    .drop a{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid black;
+        padding: 5.5px;
+    }
+    .drop a:hover{
+        background-color: darkslateblue;
+    }
+</style>
+<body>
+    <button type="button" onclick="Drop()">Drop</button>
+    <div class="drop" id='drop'>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+    </div>
+    <script>
+        function Drop()
+        {
+            document.getElementById('drop').style.display="block";
+        }
+    </script>
+</body>
+</html>

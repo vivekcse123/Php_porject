@@ -1,0 +1,222 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://educlever.beplusthemes.com/high-school/wp-content/uploads/2019/04/slider1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 1250px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    visibility: inherit;
+    z-index: 20;
+}
+.register{
+    width: 80%;
+    height: 1200px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    top: 30px;
+    box-shadow: 1px 3px 9px;
+}
+.logo{
+    background-color: #b59212;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-family: 'Abel', sans-serif;
+}
+#f_ph{
+    position: relative;
+    margin: 10px 50px;
+    left: 50px;
+    top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+label{
+    position: relative;
+    color: black;
+    margin: 10px 100px;
+    top: 30px;
+    font-weight: bold;
+    font-size: 17px;
+}
+#l_name{
+    position: relative;
+    left: 190px;
+}
+input[type="text"]
+{
+    position: relative;
+    margin: 10px 100px;
+    top: 30px;
+    width: 250px;
+    padding: 8px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+input[type="month"]
+{
+    position: relative;
+    top: 30px;
+    left: 50px;
+}
+#dob{
+    position: relative;
+    top: 50px;
+}
+select{
+    position: relative;
+    top: 50px;
+    left: -30px;
+    padding: 7px;
+}
+#month{
+    position: relative;
+    left: -35px;
+}
+#year{
+    position: relative;
+    left: -40px;
+}
+#gender{
+    position: relative;
+    top: 80px;
+}
+input[type="radio"]
+{
+    position: relative;
+    top: 83px;
+    left: 15px;
+}
+#female{
+    position: relative;
+    left: -120px;
+}
+#m,#f{
+    position: relative;
+    top: 83px;
+    right: 80px;
+}
+#f{
+    position: relative;
+    right: 210px;
+}
+#class{
+    position: relative;
+    top: 120px;
+}
+#chose{
+    position: relative;
+    top: 120px;
+    left: -12px;
+    width: 100px;
+}
+#number{
+    position: relative;
+    top: 160px;
+}
+input[type="number"]
+{
+    position: relative;
+    top: 160px;
+    width: 250px;
+    padding: 8px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+#s_ph{
+    position: relative;
+    margin: 10px 50px;
+    left: 50px;
+    top: 200px;
+    font-size: 22px;
+    font-weight: bold;
+}
+#f_fname, #f_lname{
+    position: relative;
+    top: 190px;
+}
+#f_lname{
+    position: relative;
+    left: 137.5px;
+}
+#father_fn, #father_ln,#state_n,#mother_fn,#mother_ln,#dist_n
+{
+    position: relative;
+    top: 190px;
+}
+#address{
+    position: relative;
+    top: 250px;
+    font-size: 20px;
+}
+#address
+{
+    position: relative;
+    top: 220px;
+    left: 100px;
+}
+#add_area{
+    position: relative;
+    top: 230px;
+    left: 100px;
+    width: 400px;
+    height: 100px;
+    padding: 8px;
+}
+#d_name{
+    position: relative;
+    left: 233px;
+    top: 190px;
+}
+input[type="checkbox"]
+{
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+#statements{
+    position: relative;
+    top: 200px;
+    left: 110px;
+    color: red;
+}
+button{
+    position: relative;
+    top: 250px;
+    left: 100px;
+    width: 150px;
+    padding: 8px;
+    background-color: #b59212;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+    opacity: 0.8;
+}
+::placeholder{
+    opacity: 0.8;
+}
+#b_btn{
+    position: relative;
+    left: 54%;
+}

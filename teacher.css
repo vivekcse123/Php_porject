@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://educlever.beplusthemes.com/high-school/wp-content/uploads/2019/04/slider1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 280px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    visibility: inherit;
+    z-index: 20;
+}
+.logo{
+    background-color: #b59212;
+    width: 100%;
+    height: 50px;
+}
+.logo i{
+    color: white;
+    position: relative;
+    top: 10px;
+    margin: 5px 20px;
+}
+.logo a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 10px;
+    top: 10px;
+    left: 55%;
+}
+.logo font
+{
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 55%;
+}
+.logo a:hover{
+    opacity: 0.8;
+}
+.navigation{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+}
+.navigation h1{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    position: relative;
+    top: 18px;
+    margin: 0px 20px;
+    font-weight: 600;
+}
+.navigation a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: -8px;
+    left: 45%;
+    margin: 2px 20px;
+    font-size: 20px;
+    font-family: serif;
+}
+.navigation a:hover{
+    color: #b59212;
+}
+.navigation a:active{
+    color: #b59212;
+}
+#btn{
+    width: 100px;
+    background-color: #b59212;
+    padding: 8px;
+    position: relative;
+    left: 45%;
+    border: 0px solid black;
+    outline: none;
+    border-radius: 10px;
+    top: -8px;
+    color: white;
+    cursor: pointer;
+    font-family: serif;
+    font-weight: bold;
+}
+#btn:hover{
+    opacity: 0.9;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+}
+.page a{
+    color: #b59212;
+    position: relative;
+    top: 70px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    right: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.page a:hover{
+    color: white;
+}
+.msg{
+    color: white;
+    position: relative;
+    left: 51%;
+    top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.apply h1,p{
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 35px;
+}
+.apply p{
+    font-size: 20px;
+    top: 215px;
+    opacity: 0.8;
+}
+.apply img{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    top: 200px;
+    border: 5px solid black;
+}
+.register{
+    width: 450px;
+    height: 500px;
+    background-color: #b59212;
+    position: relative;
+    top: 230px;
+    left: 100px;
+    border-radius: 5px;
+}
+.register h4{
+    position: relative;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    left: 30px;
+    top: 40px;
+    font-size: 30px;
+}
+.register label{
+    position: relative;
+    color: white;
+    top: 30px;
+    left: 30px;
+    font-family: 'Della Respira', serif;
+    font-family: 'Hind Siliguri', sans-serif;
+    opacity: 0.7;
+}
+input[type="text"]
+{
+    position: relative;
+    width: 350px;
+    padding: 12px 18px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    top: 45px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    opacity: 0.4;
+}
+input[type="email"]
+{
+    position: relative;
+    width: 350px;
+    padding: 12px 18px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    top: 35px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    opacity: 0.4;
+}
+input[type="number"]
+{
+    position: relative;
+    width: 350px;
+    padding: 12px 18px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+    top: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    opacity: 0.4;
+}
+#btn_1
+{
+    position: relative;
+    top: 25px;
+    left: 30px;
+    width: 150px;
+    padding: 12px 18px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#btn_1:hover{
+    opacity: 0.8;
+}
+.footer{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(https://educlever.beplusthemes.com/high-school/wp-content/uploads/2019/04/slider1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    height: 600px;
+    opacity: 1;
+    position: relative;
+    left: 0px;
+    top: 250px;
+    visibility: inherit;
+    z-index: 50;
+}
+.footer h1{
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    margin: 50px 100px;
+    top: 100px;
+    font-weight: 600;
+}
+.footer label{
+    position: relative;
+    color: white;
+    top: 50px;
+    font-size: 18px;
+    margin: 5px 100px;
+    opacity: 0.6;
+}
+#img1,#img2,#img3,#img4{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 2px 3px;
+    position: relative;
+    left: 60%;
+}
+.footer h5{
+    position: relative;
+    font-size: 23px;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-between;
+    margin: 5px 805px;
+    top: 25px;
+}
+#subs{
+    position: relative;
+    left: 26%;
+    width: 400px;
+    height: 40px;
+    color: #b59212;
+    opacity: 0.7;
+    font-size: 16px;
+    color: #b59212;
+}
+button[type="button"]
+{
+    position: absolute;
+    left: 82.7%;
+    width: 120px;
+    height: 52px; 
+    padding:15px;
+    top: 367px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    background-color: #b59212;
+    color: white;
+    font-size: 18px;
+}
+#subs_btn:hover{
+    opacity: 0.9;
+}
+::placeholder{
+    color: black;
+    opacity: 0.8;
+}
+.footer p{
+    position: relative;
+    left: -400px;
+    font-size: 16px;
+    top: 100px;
+    color: white;
+}
+.footer font{
+    color:#b59212;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.social font{
+    position: relative;
+    color: white;
+    top: 78px;
+    font-size: 20px;
+    left: 60%;
+}
+#face, #link, #insta{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    top: 80px;
+    left: 62%;
+    margin: 5px 10px;
+    font-size: 16px;
+}
+#face:hover,#link:hover,#insta:hover{
+    color: #b59212;
+}
+

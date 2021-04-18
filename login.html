@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>S.M.S | Login</title>
+</head>
+<body>
+    <div class="cut"><button type="reset" id="reset" onclick="Cut()">×</button></div>
+    <div class="login_page">
+        <button type="button" id='btn1' onclick="Login()">Login</button><font>|</font>
+        <button type="button" id='btn2' onclick="Sign()">Create New Account</button>
+        <br><br>
+        <form action="" method="POST">
+        <input type="text" name='uname' placeholder="User name"><br><br>
+        <input type="password" name='password' placeholder="Password"><br><br>
+        <button type="submit" name='submit' id='btn3'>Login</button>
+        <p>Not a member ? <a href="signin.html">Create new Account</a></p>
+        </form>
+    </div>
+    <script>
+        function Sign()
+        {
+            location.replace("signin.php");
+        }
+        function Login()
+        {
+            location.replace("login.html");
+        }
+        function Cut()
+        {
+            location.replace("school_home.php");
+        }
+    </script>
+</body>
+</html>
